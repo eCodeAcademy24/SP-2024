@@ -1,0 +1,3 @@
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 2 (loops)/lab4_4/cmake-build-debug/CMakeFiles/lab4_4.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 2 (loops)/lab4_4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 2 (loops)/lab4_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
