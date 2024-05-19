@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\Slavcho\Desktop\Business\eCode\Structual Programming\Group 2\SP-2024\Class 2 (loops)\lab4_2" -B "C:\Users\Slavcho\Desktop\Business\eCode\Structual Programming\Group 2\SP-2024\Class 2 (loops)\lab4_2\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\Slavcho\Desktop\Business\eCode\Structual Programming\Marija\SP-2023-2024\Class 2 (loops)\lab4\lab4_2" -B "C:\Users\Slavcho\Desktop\Business\eCode\Structual Programming\Marija\SP-2023-2024\Class 2 (loops)\lab4\lab4_2\cmake-build-debug"
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -20,6 +20,6 @@ CMake Deprecation Warning:
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (6.9s)
+-- Configuring done (4.1s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 2 (loops)/lab4_2/cmake-build-debug
+-- Build files have been written to: C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Marija/SP-2023-2024/Class 2 (loops)/lab4/lab4_2/cmake-build-debug

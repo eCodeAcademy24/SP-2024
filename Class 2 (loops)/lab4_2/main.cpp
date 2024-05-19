@@ -17,23 +17,21 @@
 using namespace std;
 
 int main() {
-    int suma;
-    int a, p;
+    int a, p, suma;
     int counter = 0;
 
     cin >> a >> p;
 
-    for (int i = a; i > 0; i--) {
+    for(int i = a; i > 0; i--) {
         suma = 0;
         int tmp = i;
-        while (tmp) {
+        while(tmp) {
             int poslednaCifra = tmp % 10;
             suma += poslednaCifra;
             tmp /= 10;
         }
 
-        float presmetajProcent = (suma / (float) i) * 100;
-        if(presmetajProcent == p) {
+        if((suma / (float) i) * 100 == p) {
             cout << i << endl;
             counter++;
         }
@@ -41,7 +39,7 @@ int main() {
         if(counter == 5) return 0;
     }
 
-    if(counter == 0) {
+    if (counter == 0) {
         cout << "NEMA";
     }
     return 0;

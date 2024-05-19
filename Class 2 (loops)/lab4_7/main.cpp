@@ -11,21 +11,21 @@
 using namespace std;
 
 int main() {
-    int n, broj, max, min;
+    int n, broj, max = -99999999, min = 9999999;
 
     cin >> n;
-    cin >> broj;
-    max = min = broj;
-    for(int i = 1; i < n; i++) {
+//    cin >> broj; moze i vaka, vrednosta na max i min inicijalno ja inicijalizirame na vneseniot broj
+//    min = max = broj;
+    for(int i = 0; i < n; i++){
         cin >> broj;
         if(broj > max) {
             max = broj;
         }
-        if(broj < min) {
+        if (broj < min) {
             min = broj;
         }
     }
 
-    cout << "Najgolema razlika: " << max - min;
+    cout << max - min;
     return 0;
 }

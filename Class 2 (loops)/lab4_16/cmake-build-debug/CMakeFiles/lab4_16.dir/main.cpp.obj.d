@@ -1,5 +1,5 @@
 CMakeFiles/lab4_16.dir/main.cpp.obj: \
- C:\Users\Slavcho\Desktop\Business\eCode\Structual\ Programming\Group\ 2\SP-2024\Class\ 2\ (loops)\lab4_16\main.cpp \
+ C:\Users\Slavcho\Desktop\Business\eCode\Structual\ Programming\Marija\SP-2023-2024\Class\ 2\ (loops)\lab4\lab4_16\main.cpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+
 //Да се напише програма во која во даден опсег на природни броеви [m,n],
 // ќе се најдат и отпечатат во нов ред сите броеви за кои важи дека збирот на бројот со неговата слика
 // (број кој ги има истите цифри,
@@ -22,28 +22,27 @@ using namespace std;
 //11
 //Vkupno: 11
 
+using namespace std;
+
 int main() {
     int m, n;
+    cin >> m >> n;
     int counter = 0;
     int obraten;
 
-    cin >> m >> n;
-
-    for(int i = m; i <= n; i++) {
+    for(int i = m; i <=n; i++){
         obraten = 0;
         int tmp = i;
-        while (tmp) {
+        while(tmp) {
             obraten = obraten * 10 + tmp % 10;
             tmp /= 10;
         }
-
-        if((obraten + i) <= 2 * i) {
+        if((obraten + i) <= 2*i) {
             cout << i << endl;
             counter++;
         }
     }
 
-    cout << "Vkupno: " << counter;
-
+    cout << counter;
     return 0;
 }

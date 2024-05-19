@@ -25,29 +25,29 @@
 using namespace std;
 
 int main() {
-    int n, iznos;
-    char tipNaDanok;
-    float suma = 0;
+    int n, broj;
     float danok = 1, ddv = 1;
-
+    float suma = 0;
+    char tipNaDanok;
     cin >> n;
-    for (int i = 0; i < n; i++) {
-        cin >> iznos >> tipNaDanok;
-        if (tipNaDanok == 'A') {
-            danok = iznos * 0.18;
+
+    for(int i = 0; i < n; i++){
+        cin >> broj >> tipNaDanok;
+        if(tipNaDanok == 'A'){
+            danok = broj * 0.18;
             ddv = danok * 0.15;
             suma += ddv;
         } else if (tipNaDanok == 'B') {
-            danok = iznos * 0.05;
+            danok = broj * 0.05;
             ddv = danok * 0.15;
             suma += ddv;
-        } else {
-            danok = iznos * 0.00;
+        } else if (tipNaDanok == 'V') {
+            danok = broj * 0.00;
             ddv = danok * 0.15;
             suma += ddv;
         }
     }
 
-    cout << "Total tax return is: " << fixed << setprecision(2) << suma;
+    cout << "Total: " << setprecision(3) << suma;
     return 0;
 }

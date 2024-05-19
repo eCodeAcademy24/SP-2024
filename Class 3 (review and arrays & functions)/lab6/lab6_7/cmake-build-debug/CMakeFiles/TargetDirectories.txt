@@ -1,0 +1,3 @@
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Marija/SP-2023-2024/Class 3 (review and arrays & functions)/lab6/lab6_7/cmake-build-debug/CMakeFiles/lab6_7.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Marija/SP-2023-2024/Class 3 (review and arrays & functions)/lab6/lab6_7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Marija/SP-2023-2024/Class 3 (review and arrays & functions)/lab6/lab6_7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
