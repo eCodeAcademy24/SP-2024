@@ -1,3 +1,0 @@
-D:/PC/SP/Class 3 (review and arrays)/lab6/lab6_8/cmake-build-debug/CMakeFiles/lab6_8.dir
-D:/PC/SP/Class 3 (review and arrays)/lab6/lab6_8/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/PC/SP/Class 3 (review and arrays)/lab6/lab6_8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
