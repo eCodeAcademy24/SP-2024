@@ -1,0 +1,3 @@
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Dopolnitelni zadaci za vezbanje ispit/6/cmake-build-debug/CMakeFiles/6.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Dopolnitelni zadaci za vezbanje ispit/6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Dopolnitelni zadaci za vezbanje ispit/6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
