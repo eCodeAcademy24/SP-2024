@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 //Од стандарден влез се чита природен број N (N <= 100), како и низа од позитивни цели броеви a[ ] со N елементи.
@@ -24,8 +25,38 @@ using namespace std;
 //
 //
 //Излез
-//Nitu eden element ne se pojavuva paren broj pati! // овде функцијата par враќа вредност 0, се печати оваа порака
-int main() {
+//Najmaliot element koj se pojavuva paren broj pati e 4 // овде функцијата par враќа вредност 0, се печати оваа порака
+int par(int a[], int n) {
+    int counter, min = 9999999;
+    for (int i = 0; i < n; i++) {
+        counter = 0;
+        for (int j = 0; j < n; j++) {
+            if (a[i] == a[j]) {
+                counter++;
+            }
+        }
 
+        if (counter % 2 == 0 && a[i] < min) {
+            min = a[i];
+        }
+    }
+    return min;
+}
+
+int main() {
+    int n, a[100];
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    int min = par(a, n);
+
+    if (min == 9999999) {
+        cout << "Nitu eden element ne se pojavuva paren broj pati!" << endl;
+    } else {
+        cout << "Najmaliot element koj se pojavuva paren broj pati e " << min << endl;
+    }
     return 0;
 }
