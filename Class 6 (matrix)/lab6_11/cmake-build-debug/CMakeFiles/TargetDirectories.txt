@@ -1,0 +1,3 @@
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 6 (matrix)/lab6_11/cmake-build-debug/CMakeFiles/lab6_11.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 6 (matrix)/lab6_11/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 6 (matrix)/lab6_11/cmake-build-debug/CMakeFiles/rebuild_cache.dir

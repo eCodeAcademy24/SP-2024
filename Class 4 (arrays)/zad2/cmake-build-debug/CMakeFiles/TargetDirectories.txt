@@ -1,3 +1,3 @@
-C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 4/zad2/cmake-build-debug/CMakeFiles/zad2.dir
-C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 4/zad2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 4/zad2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 4 (arrays)/zad2/cmake-build-debug/CMakeFiles/zad2.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 4 (arrays)/zad2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Slavcho/Desktop/Business/eCode/Structual Programming/Group 2/SP-2024/Class 4 (arrays)/zad2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
