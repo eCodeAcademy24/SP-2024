@@ -9,33 +9,31 @@ using namespace std;
 //Пример: Доколку К = 5, за бројот 8423871 треба да се отпечати 887 : 23
 
 //Input
-//4
-//4
-//25481234
-//9142347
-//1547810115
-//569124
+// 4
+// 4
+// 25481234
+// 9142347
+// 1547810115
+// 569124
 //Output
 //58 : 13
 //97 : 16
 //5785 : 25
 //569 : 20
 
-long int funkcija(long int broj, int k) {
+long long int funkcija(long long int broj, int k) {
     if (broj == 0) {
         return 0;
-    } else {
-        if (broj % 10 > k) {
-            cout << broj % 10;
-            return broj % 10 + funkcija(broj / 10, k);
-        } else {
-            return funkcija(broj / 10, k);
-        }
     }
+    if (broj % 10 > k) {
+        cout << broj % 10;
+        return broj % 10 + funkcija(broj / 10, k);
+    }
+    return funkcija(broj / 10, k);
 }
 
-long int svrtiBroj(long int broj) {
-    long int obraten = 0;
+long long int svrtiBroj(long long int broj) {
+    long long int obraten = 0;
 
     while (broj != 0) {
         obraten = obraten * 10 + broj % 10;
@@ -45,18 +43,44 @@ long int svrtiBroj(long int broj) {
     return obraten;
 }
 
-int main() {
+// 4 --> k
+//7432419
+long long int kreiraj_broj(long long int broj, int k, long long int popolni) {
+    if (broj == 0) {
+        return popolni;
+    }
 
+    if (broj % 10 > k) {
+        return kreiraj_broj(broj / 10, k, popolni * 10 + broj % 10);
+    }
+
+    return kreiraj_broj(broj / 10, k, popolni);
+}
+
+long long int recursive_sum(long long int broj) {
+    if (broj == 0) {
+        return 0;
+    }
+
+    return broj % 10 + recursive_sum(broj / 10);
+}
+
+
+int main() {
     int k, n;
     cin >> k >> n;
-    //TODO: prvo kreirajte nov broj so cifri pogolemi od K, a potoa soberete suma na toj nov broj se da bide preku rekurzija. ZA DOMA!!!
+
     for (int i = 0; i < n; i++) {
-        long int broj;
+        long long int broj;
         cin >> broj;
 
-        long int obraten = svrtiBroj(broj);
-        long int suma = funkcija(obraten, k);
-        cout <<" : " << suma << endl;
+        long long int obraten = svrtiBroj(broj);
+        long long int popolni = 0;
+        long long int novBroj = kreiraj_broj(obraten, k, popolni);
+        long long int sum = recursive_sum(novBroj);
+        cout << novBroj << " : " << sum << endl;
+        // long long int suma = funkcija(obraten, k);
+        // cout << " : " << suma << endl;
     }
 
     return 0;
