@@ -1,0 +1,3 @@
+D:/PC/SP-2024/Zadacai za vezbanje - ispit/zad12/cmake-build-debug/CMakeFiles/zad12.dir
+D:/PC/SP-2024/Zadacai za vezbanje - ispit/zad12/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/PC/SP-2024/Zadacai za vezbanje - ispit/zad12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
