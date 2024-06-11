@@ -1,0 +1,3 @@
+D:/PC/SP-2024/Dopolnitelni zadaci za vezbanje ispit/5/cmake-build-debug/CMakeFiles/5.dir
+D:/PC/SP-2024/Dopolnitelni zadaci za vezbanje ispit/5/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/PC/SP-2024/Dopolnitelni zadaci za vezbanje ispit/5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
